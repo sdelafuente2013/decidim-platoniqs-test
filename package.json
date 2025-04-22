@@ -1,0 +1,29 @@
+{
+  "name": "decidim-development-app",
+  "private": true,
+  "dependencies": {
+    "@decidim/browserslist-config": "^0.29.2",
+    "@decidim/core": "^0.29.2",
+    "@decidim/webpacker": "^0.29.2",
+    "@fullcalendar/core": "^6.1.17",
+    "@fullcalendar/daygrid": "^6.1.17",
+    "@fullcalendar/timegrid": "^6.1.17",
+    "codemirror": "^5.65.19",
+    "foundation-sites": "^6.9.0",
+    "graphql": "^16.10.0",
+    "markdown-it": "12.3.2",
+    "uc.micro": "1.0.6"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "@decidim/dev": "^0.29.2",
+    "@decidim/eslint-config": "^0.29.2",
+    "@decidim/prettier-config": "^0.29.2",
+    "@decidim/stylelint-config": "^0.29.2",
+    "esbuild": "^0.19.12",
+    "esbuild-loader": "^4.3.0"
+  },
+  "browserslist": [
+    "extends @decidim/browserslist-config"
+  ]
+}
