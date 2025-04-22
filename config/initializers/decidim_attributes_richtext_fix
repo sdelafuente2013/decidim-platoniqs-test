@@ -1,0 +1,9 @@
+module Decidim
+  module Attributes
+    class RichText < String
+      def self.type
+        String
+      end
+    end unless defined?(RichText)
+  end
+end
